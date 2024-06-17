@@ -1,0 +1,150 @@
+/*{border:1px solid #ff0000;}*/
+
+
+/* TRADUCTOR */
+
+.containerg{
+  background-image: url('imagenes/fondo.jpg');
+
+  
+}
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .titulo {
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .img1{
+    height: 100%;
+    width: 100%;
+  }
+
+  .seccion{
+    margin-top: 125px;
+  }
+
+.resultado {
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 5px;
+}
+  
+  #resultado{
+    font-weight: bold;
+    color: #fff;
+    height: 60px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 850px;
+  
+  }
+
+  #b-traducir{
+    border-radius: 15px;
+    background-color: rgb(51, 49, 49) ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #b-traducir:hover{
+    color: grey;
+    background-color: white;
+  }
+
+
+  #numeroInput{
+    margin-left: 10px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: small;
+    height: 20px;
+  }
+
+  #b-salir{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgb(51, 49, 49);
+    border-radius: 15px;
+    font-size: 18px;
+  }
+  #b-salir:hover{
+    color: grey;
+    background-color: white;
+  }
+
+  /* INDEX */
+
+  .Cabecera1{
+    height: 40px;
+    background-color: gray;
+    color: white;
+  }
+
+  .CabeceraC{
+    background-color: #fff;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: medium; 
+    font-weight: 600;
+   }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .CampoC {
+    height: 39rem;
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;
+  }
+  
+  .Logo1{
+    height: 450px;
+    width: 450px;
+  }
+
+  #b-accedeaqui {
+    border-radius: 15px;
+    background-color: grey ;
+    text-transform: uppercase;
+        
+  }
+  #b-accedeaqui:hover {
+    background-color: #fff;
+  
+      color: grey;
+    
+  }
+  .Titulo1{
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+    
+  }
+  .Pie1{
+    color: white;
+    font-size: 12px;
+  }

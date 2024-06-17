@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Traductor Kichwa</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Traductor de Números a Kichwa</h2>
+      <div class="form-group">
+        <label for="numeroInput">Ingrese un número (0-9999):</label>
+        <input type="text" id="numeroInput" />
+      </div>
+      <button onclick="traducirNumero()">Traducir</button><br><br>
+      Resultado: <br><br>
+      <div id="resultado" class="form-group"></div>
+      <div id="error" class="error-message"></div>
+    </div>
+    <script src="logica.js"></script>
+  </body>
+</html>
